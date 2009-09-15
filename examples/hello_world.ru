@@ -4,8 +4,12 @@ class HelloWorld
   include Rackable
 
   def get()
-    "Hello, world!"
+		redirect "http://www.dn.se"
   end
+
+	def post()
+
+	end
 
 end
 
