@@ -7,12 +7,6 @@ Basically, what it does is providing an object with a `call()` method that
 uses the Rack environement to dispatch to a method, giving helper objects such
 as headers, query parameters, ...
 
-## Specs
-
-You can run the specs by running `bacon` on the `rackable.rb` file.
-Bacon is available at
-[chneukirchen/bacon](/chneukirchen/bacon "Bacon's GitHub repository")
-
 ## Examples
 
 Look in the `examples/` folder.
