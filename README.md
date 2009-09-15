@@ -34,3 +34,6 @@ For both `query` and `data`, keys of the hash are symbols.
 You can easily handle errors with the provided `http_error` method. It takes an
 error code and an optional message. If no message is given, the standard message
 from the HTTP Status Codes list will be used (eg. Not Found for 404)
+
+You can issue a redirect using the provided `redirect` method. It take the url 
+to redirect to. If no url is provided, an empty 302 is returned.
